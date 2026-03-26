@@ -1,0 +1,57 @@
+.Engine section {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.Engine h1 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.Engine input {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.Engine input:focus {
+  border-color: #888;
+}
+
+.Engine .hint {
+  font-size: 13px;
+  margin-top: 10px;
+  color: #999;
+}
+
+.error-box {
+  background-color: #fff1f1;
+  border: 1px solid #ffcccc;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+/* Dark Mode */
+body.dark .Engine section {
+  background: #1a1a1a;
+  box-shadow: none;
+}
+
+body.dark .Engine h1 {
+  color: #bbb;
+}
+
+body.dark .Engine input {
+  background: #2a2a2a;
+  border-color: #444;
+  color: white;
+}
