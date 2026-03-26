@@ -1,0 +1,18 @@
+.Results h2 {
+  font-family: "Playfair Display", serif;
+  color: rgba(25, 26, 29, 0.9);
+  letter-spacing: 0;
+  font-size: 47px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+
+/*SMALLER DEVICE ADJUSTMENTS*/
+@media (max-width: 540px) {
+  .Results h2 {
+    font-size: 33px;
+    line-height: 45px;
+  }
+}
