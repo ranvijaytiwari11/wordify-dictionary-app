@@ -1,0 +1,47 @@
+.Definition h4 {
+  font-family: "Playfair Display", serif;
+  color: rgba(25, 26, 29, 0.9);
+  letter-spacing: 0;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.Definition .definition {
+  font-size: 17px;
+  margin: 35px 0 0 20px;
+  line-height: 1.25;
+}
+
+.Definition .example {
+  font-size: 14px;
+  color: rgb(25, 26, 29);
+  opacity: 0.6;
+  font-style: italic;
+  margin: 5px 0 0 20px;
+}
+
+/* SMALLER DEVICE ADJUSTMENTS */
+@media (max-width: 540px) {
+  .Definition h4 {
+    font-size: 26px;
+    line-height: 38px;
+  }
+
+  .Definition .definition {
+    font-size: 14px;
+  }
+
+  .Definition .example {
+    font-size: 13px;
+  }
+}
+
+/* Dark Mode Overrides */
+body.dark .Definition h4 {
+  color: #f1f1f1;
+}
+
+body.dark .Definition .example {
+  color: #aaaaaa;
+}
