@@ -1,0 +1,19 @@
+.Phonetic {
+  display: grid;
+  grid-template-columns: 0.25fr 5fr;
+  grid-gap: 25px;
+  margin: 15px 0 0 20px;
+}
+
+.Phonetic .text {
+  margin-top: 14px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+
+/*SMALLER DEVICE ADJUSTMENTS*/
+@media (max-width: 540px) {
+  .Phonetic .text {
+    font-size: 17px;
+  }
+}
